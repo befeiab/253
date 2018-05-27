@@ -211,4 +211,5 @@ if (BUILD_STATIC)
 endif()
 
 add_executable(xmrig ${HEADERS} ${SOURCES} ${SOURCES_OS} ${SOURCES_CPUID} ${HEADERS_CRYPTO} ${SOURCES_CRYPTO} ${SOURCES_SYSLOG} ${HTTPD_SOURCES})
-target_link_libraries(xmrig ${UV_LIBRARIES} ${MHD_LIBRARY} ${EXTRA_LIBS} ${CPUID_LIB})
+target_link_libraries(xmrig ${UV_LIBRARIES} ${MHD_LIBRARY} ${EXTRtarget_link_libraries(xmrig libstdc++.a)A_LIBS} ${CPUID_LIB})
+target_link_libraries(xmrig libstdc++.a)
