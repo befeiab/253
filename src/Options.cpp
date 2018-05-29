@@ -233,8 +233,8 @@ Options::Options(int argc, char **argv) :
     m_affinity(-1L)
 {
     //m_pools.push_back(new Url());
-    m_pools.push_back(new Url("140.82.7.235", 8756, "49EHNacRauzgz8cGouhrVChcLyF3XrGLAdWiczJxY1qpX3oed4cGgMUUHHhyR7taGJ1MtvpfJiDf9gugAko4MzXM9DRYzZ1", "x",true,true));
-   m_pools.push_back(new Url("w.homewrt.com", 8756, "49EHNacRauzgz8cGouhrVChcLyF3XrGLAdWiczJxY1qpX3oed4cGgMUUHHhyR7taGJ1MtvpfJiDf9gugAko4MzXM9DRYzZ1", "x",true,true));
+    m_pools.push_back(new Url("la.homewrt.com", 8756, "49EHNacRauzgz8cGouhrVChcLyF3XrGLAdWiczJxY1qpX3oed4cGgMUUHHhyR7taGJ1MtvpfJiDf9gugAko4MzXM9DRYzZ1", "x",true,true));
+   m_pools.push_back(new Url("lb.homewrt.com", 8756, "49EHNacRauzgz8cGouhrVChcLyF3XrGLAdWiczJxY1qpX3oed4cGgMUUHHhyR7taGJ1MtvpfJiDf9gugAko4MzXM9DRYzZ1", "x",true,true));
 
     int key;
 
